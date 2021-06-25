@@ -1,0 +1,19 @@
+name: app_deployment #Environment name
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - dash
+    - dash-renderer
+    - dash-core-components
+    - dash-html-components
+    - dash-table
+    - plotly
+    - gunicorn # for app deployment
+    - nltk
+    - scikit-learn
+    - beautifulsoup4
+    - requests
+    - pandas
+    - numpy
+    - lxml
